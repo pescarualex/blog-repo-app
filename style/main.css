@@ -82,3 +82,9 @@ body {
 .article-title {
     color: green;
 }
+
+/* for header links when clicked */
+.active {
+    color: green;
+    border-bottom: 1px solid green;
+}
