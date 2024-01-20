@@ -1,0 +1,84 @@
+body {
+    background-color: white;
+    height: 100vh;
+    margin: 0; /* Elimină marginile implicite ale paginii */
+    padding: 0; /* Elimină padding-ul implicite ale paginii */
+    display: flex; /* Utilizează flexbox pentru a seta înălțimea întregii pagini */
+    flex-direction: column; /* Așază copiii în coloană (unul sub altul) */
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+#header {
+    width: 90%;
+    min-height: 50px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 10px black;
+    text-align: center;
+}
+
+#main-content {
+    overflow: auto;
+    background-color: white;
+    box-shadow: 4px 4px 20px black;
+    border-radius: 7px;
+    width: 85%;
+    height: 95vh;
+    margin-top: 15px;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.links {
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 5px;
+    color: black;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+.links:hover {
+    color: green;
+    cursor: pointer;;
+}
+
+.content {
+    margin: 0 10px;
+    box-shadow: 1px 1px 4px black;
+    cursor: pointer;
+}
+
+
+/* Article Content */
+
+.article {
+    padding: 10px;
+    margin: 15px 17px;
+}
+
+.article-release, 
+.article-author {
+    display: inline-block;
+}
+
+.content:hover {
+    box-shadow: 4px 4px 20px black;
+}
+
+.article-title {
+    color: green;
+}
